@@ -1,6 +1,6 @@
 CookBook
 ========
-This tidy data set is generated from UCI Human Activity Recognition Using Smartphones Dataset and extract it to working directory. *Please read the codebook for the original set for further understanding.*
+This tidy data set is generated from UCI Human Activity Recognition Using Smartphones Dataset and extract it to working directory. **Please read the codebook for the original set for further understanding.**
 
 We take only the mean and standard deviation variables from the original dataset and take the average of each variable for each activity and each subject. Namely we perform the following steps on the UCI data set:
 
