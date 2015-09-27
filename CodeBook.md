@@ -1,3 +1,13 @@
+Tidy dataset
+========
+Aidy data set, 'tidy_data.txt' is generated from the UCI Human Activity Recognition Using Smartphones Dataset and extract it to working directory. *Please read the codebook for the original data set below for description of each variable.*
+
+We take only the mean and standard deviation variables from the original dataset and take the average of each variable for each activity and each subject. Namely we perform the following steps on the UCI data set:
+
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement. 
+3. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -51,16 +61,6 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
-
-Tidy dataset
-========
-Aidy data set, 'tidy_data.txt' is generated from the UCI Human Activity Recognition Using Smartphones Dataset and extract it to working directory. *Please read the codebook for the original data set above for description of each variable.*
-
-We take only the mean and standard deviation variables from the original dataset and take the average of each variable for each activity and each subject. Namely we perform the following steps on the UCI data set:
-
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement. 
-3. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Notes: 
 ======
